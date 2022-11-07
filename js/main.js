@@ -60,10 +60,11 @@ const team=[
 
 for (let key in team) {
     const person=team[key]
-    const personList=`<div><img src="img/${person.propic}"><div> ${person.name}<br> ${person.role}`
+    const personList=`<div class="div_img"><img src="img/${person.propic}"><div>
+                     <b>${person.name}</b><br> <small>${person.role}</small>`
     const card= document.createElement("div")
     card.innerHTML=personList
-    card.classList.add("card_style", "fs-4")
+    card.classList.add("card_style", "fs-2")
     console.log(card.innerHTML)
     container.append(card)
 }

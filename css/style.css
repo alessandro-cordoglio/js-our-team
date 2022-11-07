@@ -12,4 +12,9 @@ body{
     width: calc(100%/3);
     border-radius: 10px;
     padding: 20px;
+    text-align: center;
+}
+.div_img img{
+    width: 300px;
+    border-radius: 50%;
 }
