@@ -18,6 +18,7 @@ body{
     border-radius: 10px;
     padding: 20px;
     text-align: center;
+    background-color: azure;
 }
 .div_img img{
     width: 300px;
