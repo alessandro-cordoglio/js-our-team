@@ -1,15 +1,16 @@
 .my_container{
     max-width: 1300px;
     margin: auto;
-  
     flex-wrap: wrap;
+    justify-content: center;
 }
 body{
     height: 100vh;
 }
 .card_style{
     border: 1px solid black;
-    width: calc(100%/3);
+    width: calc((100%/3)-10px);
+    margin: 10px;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
