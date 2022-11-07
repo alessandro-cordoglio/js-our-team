@@ -4,8 +4,12 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+h1{
+    font-size: 60px;
+}
 body{
     height: 100vh;
+    background-color: beige;
 }
 .card_style{
     border: 1px solid black;
