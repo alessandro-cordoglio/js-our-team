@@ -1,8 +1,15 @@
 .my_container{
     max-width: 1300px;
     margin: auto;
-    height: 100%;
+  
+    flex-wrap: wrap;
 }
 body{
     height: 100vh;
+}
+.card_style{
+    border: 1px solid black;
+    width: calc(100%/3);
+    border-radius: 10px;
+    padding: 20px;
 }

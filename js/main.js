@@ -18,7 +18,7 @@ BONUS 1:
 Trasformare la stringa foto in una immagine effettiva
 BONUS 2:
 Organizzare i singoli membri in card/schede */
-
+const container= document.querySelector(".my_container")
 const team=[
     //person 1
     {
@@ -58,7 +58,12 @@ const team=[
     }
 ]
 
-for (const key in team) {
+for (let key in team) {
+    const person=team[key]
+    const personList=`<div><img src="img/${person.propic}"><div> ${person.name}<br> ${person.role}`
     const card= document.createElement("div")
-    
+    card.innerHTML=personList
+    card.classList.add("card_style", "fs-4")
+    console.log(card.innerHTML)
+    container.append(card)
 }
